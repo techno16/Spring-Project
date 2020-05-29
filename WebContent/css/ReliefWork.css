@@ -1,0 +1,49 @@
+.main-body {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #777;
+}
+
+.padding {
+    margin-bottom: 30px;
+}
+
+#work-main-title {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 64rem;
+    padding: 14rem 4rem 0rem 4rem;
+    text-align: center;
+}
+#work-main-title h2{
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.event1 {
+    padding-top: 100px;
+    padding-bottom: 450px;
+}
+
+#img_1 {
+    width: 650px;
+    height: 450px;
+}
+
+#img_2 {
+    width: 650px;
+    height: 450px;
+}
+
+#event2 {
+    padding-right: 0;
+}
+
+.hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0.3px solid #23415C;
+}

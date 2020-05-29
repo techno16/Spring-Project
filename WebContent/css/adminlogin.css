@@ -1,0 +1,89 @@
+body html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('../img/Adminlogin.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    margin-top: 200px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.img-header {
+    display: inline-block;
+    margin-left: -15px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+    letter-spacing: 0.1em;
+}
+
+.main-login {
+    background-color: #ffffff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    opacity: 0.95;
+}
+
+.main-center {
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+}
+
+.login-button {
+    margin-top: 5px;
+}
+
+.login-register {
+    font-size: 11px;
+    text-align: center;
+}
+
+.login-register a {
+    color: #673ab7;
+}
+
+
+/* button */
+
+.btn-main {
+    color: #FFFFFF;
+    background-color: #673ab7;
+    border-color: #FFFFFF;
+    border-radius: 10;
+}
+
+.btn-main:hover,
+.btn-main:focus,
+.btn-main:active,
+.btn-main.active,
+.open .dropdown-toggle.btn-main {
+    color: #FFFFFF;
+    background-color: rgb(87, 35, 87);
+    border-color: #FFFFFF;
+}
